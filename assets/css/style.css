@@ -109,7 +109,6 @@ h3{
     /* margin:0rem 0rem 0rem 7rem; */
     height: 370px;
     margin-top: -193px;
-    background-color: violet;
     margin-left: 54em;
     margin-right: 8em;
     font-style: italic;
@@ -398,7 +397,8 @@ li>a{
 
 /* medium screen */
 @media only screen and (min-width:652px) and (max-width:751px){
-    body{background-color:  rgb(238, 247, 255) ;
+    body{
+        background-color:  rgb(238, 247, 255) ;
         overflow-x: hidden;
     }
     body::before{
@@ -505,7 +505,6 @@ li>a{
         /* margin:0rem 0rem 0rem 7rem; */
         height: 450px;
         margin-top: -323px;
-        /* background-color: violet; */
         margin-left:13em;
         margin-right: 13em;
         font-style: italic;
@@ -1446,7 +1445,7 @@ li>a{
     }
     .requirements p:nth-last-child(1){
         margin-top: 2em;
-        margin-left: 7%;
+        margin-left: 5%;
         width: 400px;
         /* background-color: red; */
         text-align: center;
@@ -1494,7 +1493,7 @@ li>a{
     
     .design-selection{
         
-        margin-left: 10em;
+        margin-left: 7em;
          
     }
     .design-selection h3{
@@ -1504,7 +1503,7 @@ li>a{
     }
     
     .design-archives{
-        margin-left: 10em;
+        margin-left: 7em;
         margin-top: 2em;
         
     }
@@ -1516,7 +1515,7 @@ li>a{
     }
     
     .zen-resources{
-        margin-left: 10em;
+        margin-left: 7em;
         padding-top: 3em;
         height: 19em;
     }
